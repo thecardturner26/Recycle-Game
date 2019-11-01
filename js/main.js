@@ -1,3 +1,3 @@
-let reItems = ['bottle water', 'grocery bag', 'straw']
-let compItems = ['banana', 'egg shells', 'leafs']
-let landItems = ['clothes', 'batteries', 'furniture']
+const reItems = ['bottle water', 'grocery bag', 'straw']
+const compItems = ['banana', 'egg shells', 'leafs']
+const landItems = ['clothes', 'batteries', 'furniture']

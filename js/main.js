@@ -1,3 +1,8 @@
-const reItems = ['bottle water', 'grocery bag', 'straw']
-const compItems = ['banana', 'egg shells', 'leafs']
-const landItems = ['clothes', 'batteries', 'furniture']
+var recycle = ['bottle water', 'grocery bag', 'straw']
+var compost = ['banana', 'egg shells', 'leafs']
+var landfill = ['clothes', 'batteries', 'furniture']
+
+
+function qTerm(){
+
+}

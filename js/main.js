@@ -1,1 +1,1 @@
-//let plastic = ['bottle water', 'grocery bag', 'straw']
+let plastic = ['bottle water', 'grocery bag', 'straw']

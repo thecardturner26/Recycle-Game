@@ -1,0 +1,24 @@
+.mainColor {
+    background-color: #80e27e;
+}
+
+button {
+    height: 45px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #212121;
+    color: white;
+}
+
+#start {
+    height: 45px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: #212121;
+    color: white;
+}
+
+#start a{
+    color: white;
+    text-decoration: none;
+}

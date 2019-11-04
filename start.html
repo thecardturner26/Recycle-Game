@@ -9,54 +9,38 @@
     <title>Recycle</title>
 </head>
 <body class="mainColor">
-    <!-- <header>
-        <h1>Recycle</h1>
-    </header> -->
-<section>
-    <h2 class="outline">Question</h2>
-
-    <p class="questionNumber">Question 1 of 5</p>
+        
     
-    <div class="questionContainer">
-        <p class="questionText">Bottle water?</p>
-        <form>
-            <select class="demo">
-                <option value="recycle">recycle</option>
-                <option value="compost">compost</option>
-                <option value="landfill">landfill</option>
-            </select>
-        </form>
-    </div>
-    <div class="hideMe questionContainer">
-        <p class="questionText">grocery bag?</p>
-        <form>
-            <select>
-                <option value="recycle">recycle</option>
-                <option value="compost">compost</option>
-                <option value="landfill">landfill</option>
-            </select>
-        </form>
-    </div>
-    <div class="hideMe questionContainer">
-        <p class="questionText">straw?</p>
-        <form>
-            <select>
-                <option value="recycle">recycle</option>
-                <option value="compost">compost</option>
-                <option value="landfill">landfill</option>                
-            </select>
-        </form>
-    </div>
-</section>
-    <!-- <div>
-        <ul>
-            <li><button>Recycle</button></li>
-            <li><button>Compost</button></li>
-            <li><button>Landfill</button></li>
-        </ul>
-    </div> -->
-    <form name="next">
-            <input type="submit" value="Next"/>
-        </form>
+    <h1>Recycling</h1>
+     
+        <div class="quiz_wrapper">
+               
+               <div class="question" id="questionBox">
+                   
+               </div>
+               
+               <div class="options">
+                     <ul id="ul">
+                           <li id="op1" onclick="button(this)"></li>
+                           <li id="op2" onclick="button(this)"></li>
+                           <li id="op3" onclick="button(this)"></li>
+                           <li id="op4" onclick="button(this)"></li>
+                     </ul>
+               </div>
+               <div class="score">
+                      <div class="next">
+                            <button type="button" onclick="next()" id="button">Next</button>
+                      </div>
+                      <div class="score-card">
+                            Score : <span id="scoreCard">0</span>
+                      </div>
+               </div>
+    
+        </div>
+
+
+
+
+
 </body>
 </html>

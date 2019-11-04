@@ -3,35 +3,66 @@ var compost = ['banana', 'egg shells', 'leafs']
 var landfill = ['clothes', 'batteries', 'furniture']
 
 
+
+$(":input").change(function(){
+    $(this).parents("div").addClass("hideMe");
+    $(this).parents("div").next("div").removeClass("hideMe");
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //function displayWord(){
-    
+
 // for (i = 0; i < recycle.length; i++){
 //     document.write(
 //         "  " + i + "  " +
 //         recycle[i] + "<br/>"
 //     )
 // }
-const messageEl = document.querySelector('h2');
+// const messageEl = document.querySelector('h2');
 
 
-function addElement () { 
-    // create a new div element 
-    var newDiv = document.createElement("div"); 
-    // and give it some content 
-    var newContent = recycle.textContent = recycle.length; 
-    // add the text node to the newly created div
-    newDiv.appendChild(newContent);  
+// function addElement () { 
+//     // create a new div element 
+//     var newDiv = document.createElement("div"); 
+//     // and give it some content 
+//     var newContent = recycle.textContent = recycle.length; 
+//     // add the text node to the newly created div
+//     newDiv.appendChild(newContent);  
   
-    // add the newly created element and its content into the DOM 
-    var currentDiv = document.getElementById("div1"); 
-    document.body.insertBefore(newDiv, currentDiv); 
-  }
+//     // add the newly created element and its content into the DOM 
+//     var currentDiv = document.getElementById("div1"); 
+//     document.body.insertBefore(newDiv, currentDiv); 
+//   }
 
 
 
 
 
-  
+
 //for (i = 0; i < Colors.length; i++)
 //   <script language="JavaScript">
 //     // Create the array and fill it with data.

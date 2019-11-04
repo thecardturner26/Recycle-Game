@@ -1,20 +1,21 @@
 .mainColor {
-    background-color: #80e27e;
+    background-color: #00E676;
 }
 
 button {
     height: 45px;
     width: 100px;
     border-radius: 20px;
-    background-color: #212121;
+    background-color: #2979FF;
     color: white;
+    
 }
 
 #start {
     height: 45px;
     width: 100px;
     border-radius: 20px;
-    background-color: #212121;
+    background-color: #2979FF;
     color: white;
 }
 
@@ -29,4 +30,46 @@ ul {
 
 .hideMe {
     display: none;
+}
+
+.titlePage {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 10px;
+    background-color: #536DFE;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    size: 2rem;
+}
+
+div {
+    text-align: center;
+}
+
+.quiz_wrapper {
+    height: 400px;
+    width: 650px;
+    background-color: white;
+    margin: 50px auto;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+img {
+    max-width: 20%;
+    height:auto;
+    border-block-color: white;
 }

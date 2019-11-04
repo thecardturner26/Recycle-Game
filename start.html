@@ -5,29 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="javascript" href="js/main.js">
+    <script defer src="js/main.js"></script>
     <title>Recycle</title>
 </head>
 <body class="mainColor">
-    <header>
+    <!-- <header>
         <h1>Recycle</h1>
-    </header>
+    </header> -->
+<section>
+    <h2 class="outline">Question</h2>
+
+    <p class="questionNumber">Question 1 of 5</p>
     
-    <div>
-        <p class="questionText">Bottle water</p>
+    <div class="questionContainer">
+        <p class="questionText">Bottle water?</p>
+        <form>
+            <select class="demo">
+                <option value="recycle">recycle</option>
+                <option value="compost">compost</option>
+                <option value="landfill">landfill</option>
+            </select>
+        </form>
     </div>
-    <div>
-        <p class="questionText">grocery bag</p>
+    <div class="hideMe questionContainer">
+        <p class="questionText">grocery bag?</p>
+        <form>
+            <select>
+                <option value="recycle">recycle</option>
+                <option value="compost">compost</option>
+                <option value="landfill">landfill</option>
+            </select>
+        </form>
     </div>
-    <div>
-        <p class="questionText">straw</p>
+    <div class="hideMe questionContainer">
+        <p class="questionText">straw?</p>
+        <form>
+            <select>
+                <option value="recycle">recycle</option>
+                <option value="compost">compost</option>
+                <option value="landfill">landfill</option>                
+            </select>
+        </form>
     </div>
-    <div>
+</section>
+    <!-- <div>
         <ul>
             <li><button>Recycle</button></li>
             <li><button>Compost</button></li>
             <li><button>Landfill</button></li>
         </ul>
-    </div>
+    </div> -->
+    <form name="next">
+            <input type="submit" value="Next"/>
+        </form>
 </body>
 </html>

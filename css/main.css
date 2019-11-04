@@ -26,3 +26,7 @@ button {
 ul {
    display: inline;
 }
+
+.hideMe {
+    display: none;
+}

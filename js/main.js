@@ -1,31 +1,13 @@
-var recycle = ['bottle water', 'grocery bag', 'straw']
-var compost = ['banana', 'egg shells', 'leafs']
-var landfill = ['clothes', 'batteries', 'furniture']
+// var recycle = ['bottle water', 'grocery bag', 'straw']
+// var compost = ['banana', 'egg shells', 'leafs']
+// var landfill = ['clothes', 'batteries', 'furniture']
 
 
 
 $(":input").change(function(){
-    $(this).parents("div").addClass("hideMe");
-    $(this).parents("div").next("div").removeClass("hideMe");
+    $(this).parents(".questionContainer").addClass("hideMe");
+    $(this).parents(".questionContainer ").next(".questionContainer ").removeClass("hideMe");
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

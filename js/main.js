@@ -77,7 +77,6 @@ var app={
     
               }
    
-   
               window.onload=app.load();
    
               function button(ele){

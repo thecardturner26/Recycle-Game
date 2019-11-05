@@ -1,5 +1,5 @@
 .mainColor {
-    background-color: #00E676;
+    background-color: #00e676;
 }
 
 button {
@@ -8,7 +8,7 @@ button {
     border-radius: 20px;
     background-color: #2979FF;
     color: white;
-    
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 #start {
@@ -34,9 +34,10 @@ ul {
 
 .titlePage {
     font-family: 'IBM Plex Sans', sans-serif;
+    color: #bbdefb;
 }
 
-h1 {
+#page2 {
     font-family: 'IBM Plex Sans', sans-serif;
     border-radius: 10px;
     background-color: #536DFE;

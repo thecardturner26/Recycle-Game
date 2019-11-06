@@ -13,7 +13,7 @@ var op3=document.getElementById('op3');
 
 var app={
     questions:[
-                {q: Image => "https://i.imgur.com/nELN0Hh.png" , options:['Recycle','Compost','Landfill',],answer:1},
+                {q:'plastic bottle', options:['Recycle','Compost','Landfill',],answer:1},
 
                 {q:'Grocery bag ?',options:['Recycle','Compost','Landfill',],answer:1},
 
@@ -21,11 +21,17 @@ var app={
              ],
             
 
+    //questions:[0].src = "https://i.imgur.com/nELN0Hh.png"
+    images: [
+        p.src = "https://i.imgur.com/nELN0Hh.png",
+        p.src = "https://i.imgur.com/h5hXM0P.png",
+        p.src = "https://i.imgur.com/99uKphz.jpg"
+    ]
 
               index:0,
               load:function(){
                      if(this.index<=this.questions.length-1){
-                      quizBox.innerHTML=this.index+1+". "+this.questions[this.index].q;      
+                      quizBox.innerHTML=this.index+1+". "+this.images[this.index].p;      
                       op1.innerHTML=this.questions[this.index].options[0];
                       op2.innerHTML=this.questions[this.index].options[1];
                       op3.innerHTML=this.questions[this.index].options[2];
@@ -46,7 +52,7 @@ var app={
                     },
                    check:function(ele){
                       
-                            var id=ele.id.split('');
+                            var id = ele.id.split('');
                             
                             if(id[id.length-1]==this.questions[this.index].answer){
                                 this.score++;
@@ -74,7 +80,7 @@ var app={
                    },
                    score:0,
                    scoreCard:function(){
-                       scoreCard.innerHTML=this.questions.length+"/"+this.score;
+                       scoreCard.innerHTML=this.score+ "/" +this.questions.length;
                    }
     
               }

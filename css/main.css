@@ -1,6 +1,8 @@
 .mainColor {
-    background-image: url("https://i.imgur.com/7SCCrgq.png");
-    
+    background-image: url("https://i.imgur.com/v9iGEpF.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
 }
 
 button {

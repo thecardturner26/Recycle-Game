@@ -13,12 +13,14 @@ var op3=document.getElementById('op3');
 
 var app={
     questions:[
-                {q:'Bottle water?', options:['Recycle','Compost','Landfill',],answer:1},
+                {q: Image => "https://i.imgur.com/nELN0Hh.png" , options:['Recycle','Compost','Landfill',],answer:1},
 
                 {q:'Grocery bag ?',options:['Recycle','Compost','Landfill',],answer:1},
 
                 {q:'Staw?',options:['Recycle','Compost','Landfill'],answer:1}
              ],
+            
+
 
               index:0,
               load:function(){

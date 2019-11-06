@@ -17,6 +17,7 @@ button {
     border-radius: 20px;
     background-color: #2979FF;
     color: white;
+    margin-top: 60px;
 }
 
 #start a{
@@ -25,7 +26,18 @@ button {
 }
 
 ul {
-   display: inline;
+    display:flex;
+    list-style: none;  
+    margin-left: 140px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    /* margin: 40px;
+    max-width: 350px;
+    display: inline-block; */
+}
+
+.main {
+    margin-bottom: 90px;
 }
 
 .hideMe {
@@ -34,7 +46,7 @@ ul {
 
 .titlePage {
     font-family: 'IBM Plex Sans', sans-serif;
-    color: #bbdefb;
+    color: #212121;
 }
 
 #page2 {
@@ -74,3 +86,13 @@ img {
     height:auto;
     border-block-color: white;
 }
+
+a {
+    color: white;
+}
+
+li {
+    margin-right: 50px;
+    margin-left: 10px;
+}
+

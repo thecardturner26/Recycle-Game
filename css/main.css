@@ -47,6 +47,17 @@ ul {
     display: none;
 }
 
+.wrong {
+    background-color: #f54949;
+    border-radius: 10px;
+    color: white;
+}
+
+.correct {
+    background-color: #49f57d;
+    border-radius: 10px;
+}
+
 .titlePage {
     font-family: 'IBM Plex Sans', sans-serif;
     color: #212121;

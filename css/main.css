@@ -129,6 +129,10 @@ div {
     padding: 30px;
 }
 
+.score-card {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 img {
     max-width: 20%;
     height:auto;

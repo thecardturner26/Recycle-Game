@@ -1,4 +1,4 @@
-
+////////////////////variables/////////////////////////////////////
 
 var ul=document.getElementById('ul');
 var btn=document.getElementById('button');

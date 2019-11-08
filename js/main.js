@@ -10,7 +10,7 @@ var op3=document.getElementById('op3');
 
 
 
-
+/////////////////////////////Array of questions an answers///////////////////////////
 var app={
     questions:[
                 {q:'Plastic bottle?',options:['Recycle','Compost','Landfill',],answer:1},
@@ -23,7 +23,7 @@ var app={
 
                 {q:'HW you dont wanna do?',options:['Recycle','Compost','Landfill'],answer:1},
 
-                {q:'Cardbord cut out of stan lee',options:['Recycle','Compost','Landfill'],answer:1},
+                {q:'Cardbord cut out of John Trevolta',options:['Recycle','Compost','Landfill'],answer:1},
 
                 {q:'Leftovers from last ',options:['Recycle','Compost','Landfill'],answer:3},
 
@@ -45,7 +45,7 @@ var app={
     //     p.src = "https://i.imgur.com/h5hXM0P.png",
     //     p.src = "https://i.imgur.com/99uKphz.jpg"
     // ]
-
+/////////////////////////loads in first queston///////////////
               index:0,
               load:function(){
                      if(this.index<=this.questions.length-1){
@@ -56,18 +56,23 @@ var app={
                          this.scoreCard();
                       }
                       else{
-
-                      quizBox.innerHTML="Game Over......!!!"      
+//////////////////////////////End title card/////////////
+                      quizBox.innerHTML="You did it......!!!"      
                       op1.style.display="none";
                       op2.style.display="none";
                       op3.style.display="none";
                       btn.style.display="none";
                       }
                     },
+
+//////////////////////next level///////////////////
                     next:function(){
-                       this.index++;
-                       this.load();
+                        this.index++;
+                        this.load();
                     },
+
+
+/////////////////////checks if its correct or if its wrong///////////////
                    check:function(ele){
                       
                             var id = ele.id.split('');
@@ -83,6 +88,9 @@ var app={
                                 ele.innerHTML="Wrong";
                             }
                    },
+
+
+///////////////////not able to click after an answer is enterd/////////////
                    notClickAble:function(){
                           for(let i=0;i<ul.children.length;i++){
                                   ul.children[i].style.pointerEvents="none";
@@ -96,21 +104,31 @@ var app={
    
                           }
                    },
+
+
+
+////////////////////score keeping//////////////////////
                    score:0,
                    scoreCard:function(){
                        scoreCard.innerHTML=this.score+ "/" +this.questions.length;
                    }
     
               }
-   
+///////////////////////loading/////////////////////
               window.onload=app.load();
-   
+
+
+///////////////////////button funtion////////////
               function button(ele){
                        app.check(ele);
                        app.notClickAble();
               }
-   
+/////////////////////next question calling//////////////
             function  next(){
                  app.next();
                  app.clickAble();
             }   
+
+
+
+            

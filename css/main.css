@@ -30,7 +30,7 @@ button {
 
 
 
-.imgR {
+/* .imgR {
     background-image: url("https://i.imgur.com/uBmc3KN.png");
     background-size: 70px;
     background-repeat: no-repeat;
@@ -50,7 +50,7 @@ button {
     background-size: 70px;
     background-repeat: no-repeat;
     
-}
+} */
 
 ul {
     display:flex;
@@ -71,19 +71,25 @@ ul {
     display: none;
 }
 
+.question {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 .wrong {
     background-color: #f54949;
     border-radius: 10px;
     color: white;
-    height: 20px;
+    height: 40px;
     width: 60px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .correct {
     background-color: #49f57d;
     border-radius: 10px;
-    height: 20px;
+    height: 40px;
     width: 60px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .titlePage {
@@ -129,6 +135,7 @@ img {
     border-block-color: white;
 }
 
+
 a {
     color: white;
 }
@@ -138,7 +145,10 @@ li {
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
+
+
 
 
 

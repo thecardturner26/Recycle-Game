@@ -13,12 +13,23 @@ var op3=document.getElementById('op3');
 
 var app={
     questions:[
-                {q:'plastic bottle', p: "https://i.imgur.com/nELN0Hh.png" , options:['Recycle','Compost','Landfill',],answer:1},
+                {q:'Plastic bottle?',options:['Recycle','Compost','Landfill',],answer:1},
 
                 {q:'Grocery bag ?',options:['Recycle','Compost','Landfill',],answer:1},
 
-                {q:'Staw?',options:['Recycle','Compost','Landfill'],answer:1},
+                {q:'Straw?',options:['Recycle','Compost','Landfill'],answer:1},
 
+                {q:'Banana Peel?',options:['Recycle','Compost','Landfill'],answer:2},
+
+                {q:'HW you dont wanna do?',options:['Recycle','Compost','Landfill'],answer:1},
+
+                {q:'Cardbord cut out of stan lee',options:['Recycle','Compost','Landfill'],answer:1},
+
+                {q:'Leftovers from last ',options:['Recycle','Compost','Landfill'],answer:3},
+
+                {q:'Leafs?',options:['Recycle','Compost','Landfill'],answer:2},
+
+        
                 
                 // p.src = "https://i.imgur.com/nELN0Hh.png",
                 // p.src = "https://i.imgur.com/h5hXM0P.png",
@@ -38,7 +49,7 @@ var app={
               index:0,
               load:function(){
                      if(this.index<=this.questions.length-1){
-                      quizBox.innerHTML=this.index+1+". "+this.questions[this.index].p;      
+                      quizBox.innerHTML=this.index+1+". "+this.questions[this.index].q;      
                       op1.innerHTML=this.questions[this.index].options[0];
                       op2.innerHTML=this.questions[this.index].options[1];
                       op3.innerHTML=this.questions[this.index].options[2];

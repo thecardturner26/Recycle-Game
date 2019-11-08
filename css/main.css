@@ -28,6 +28,15 @@ button {
     text-decoration: none;
 }
 
+
+
+.imgR {
+    background-image: url("https://i.imgur.com/uBmc3KN.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    
+}
+
 ul {
     display:flex;
     list-style: none;  
@@ -51,11 +60,15 @@ ul {
     background-color: #f54949;
     border-radius: 10px;
     color: white;
+    height: 20px;
+    width: 60px;
 }
 
 .correct {
     background-color: #49f57d;
     border-radius: 10px;
+    height: 20px;
+    width: 60px;
 }
 
 .titlePage {
@@ -108,5 +121,45 @@ a {
 li {
     margin-right: 50px;
     margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* display:flex;
+    display: inline-flex;
+    list-style: none;
+
+    height:auto;
+    margin-right: 0px;
+    margin-left: 0px; */
+
+
+    /* height: 100px;
+    width: 300px; */
+    /* margin-left: 0px;
+    margin-right: 100px; */
+    /* margin-left: 90px;
+    margin-top: 10px;
+    margin-bottom: 50px; */
+    /* margin: 40px; */
+    /* width: 500px;
+    height: 500px; */
+
+
+
 

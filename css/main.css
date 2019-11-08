@@ -37,6 +37,21 @@ button {
     
 }
 
+.imgC {
+    background-image: url("https://i.imgur.com/g7cRwQX.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    
+}
+
+
+.imgT {
+    background-image: url("https://i.imgur.com/yfm54Rf.png");
+    background-size: 70px;
+    background-repeat: no-repeat;
+    
+}
+
 ul {
     display:flex;
     list-style: none;  
